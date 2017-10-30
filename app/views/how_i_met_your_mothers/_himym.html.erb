@@ -1,0 +1,7 @@
+<% if display_link %>
+<h2><%= link_to himym.character, HIMYM_path(himym) %> </h2>
+<p><%= himym.catch_phrase %> </p>
+<% else %>
+<h2><%= himym.character %> </h2>
+<p><%= himym.catch_phrase %> </p>
+<%end %>
